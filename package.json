@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addon-actions": "5.0.5",
     "@storybook/react": "5.0.5",
     "babel-loader": "^8.0.5",
     "enzyme": "^3.9.0",
@@ -26,5 +27,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@storybook/addon-knobs": "5.0.5",
+    "@storybook/addon-notes": "5.0.5",
+    "@storybook/addons": "5.0.5"
+  }
 }
